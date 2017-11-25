@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "nodemon server.js"
+    "start:dev": "nodemon server.js",
+    "start:dev:prod": "BASE_URL=https://web-api-demo.herokuapp.com nodemon server"
   },
   "keywords": [],
   "author": "",
